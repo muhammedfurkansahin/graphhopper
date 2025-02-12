@@ -23,10 +23,9 @@ With these customizations, users can view both vehicle and public transportation
 # Çalıştırma Komutu
 
 
-'''
+```bash
 java -Xms2g -Xmx6g -Ddw.graphhopper.datareader.file=turkey-latest.osm.pbf -jar web/target/graphhopper-web-*.jar server config.yml
-'''
-
+```
 
 # Original Api ReadMe
 
