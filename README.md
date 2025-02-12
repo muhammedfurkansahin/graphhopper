@@ -1,3 +1,28 @@
+# Özelleştirilmiş GraphHopper API / Customized GraphHopper API
+
+## Türkçe
+Bu projede GraphHopper API'sini özelleştirerek aşağıdaki özellikleri ekledim:
+
+- Config dosyası özelleştirildi ve optimize edildi
+- Konya şehri için GTFS (General Transit Feed Specification) verisi entegre edildi
+- Otobüs ile toplu taşıma navigasyon desteği eklendi
+- Rota hesaplamalarına toplu taşıma seçeneği dahil edildi
+
+Bu özelleştirmeler sayesinde, kullanıcılar Konya'da hem araç hem de toplu taşıma rotalarını görüntüleyebilir ve en uygun güzergahı seçebilirler.
+
+## English
+In this project, I customized the GraphHopper API by adding the following features:
+
+- Customized and optimized configuration file
+- Integrated GTFS (General Transit Feed Specification) data for the city of Konya
+- Added public transportation navigation support with bus routes
+- Included public transportation options in route calculations
+
+With these customizations, users can view both vehicle and public transportation routes in Konya and choose the most suitable route.
+
+
+# Original Api ReadMe
+
 # GraphHopper Routing Engine
 
 ![Build Status](https://github.com/graphhopper/graphhopper/actions/workflows/build.yml/badge.svg?branch=master)
