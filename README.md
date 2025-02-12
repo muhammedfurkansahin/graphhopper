@@ -20,6 +20,13 @@ In this project, I customized the GraphHopper API by adding the following featur
 
 With these customizations, users can view both vehicle and public transportation routes in Konya and choose the most suitable route.
 
+# Çalıştırma Komutu
+
+
+'''
+java -Xms2g -Xmx6g -Ddw.graphhopper.datareader.file=turkey-latest.osm.pbf -jar web/target/graphhopper-web-*.jar server config.yml
+'''
+
 
 # Original Api ReadMe
 
