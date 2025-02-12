@@ -1,5 +1,8 @@
 graphhopper:
 
+  transit.enabled: true
+  transit.feed_directory: "gtfs"
+
   # OpenStreetMap input file PBF or XML, can be changed via command line -Ddw.graphhopper.datareader.file=some.pbf
   datareader.file: ""
   # Local folder used by graphhopper to store its data
