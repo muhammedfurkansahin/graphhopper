@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+1,Otobus Tramvay,https://atus.konya.bel.tr/,Europe/Istanbul,tr,444 55 42,https://atus.konya.bel.tr/ulasim-ucretleri,
